@@ -28,6 +28,7 @@
       โดย rd = $1 , rs = $2 , rt = $3
       การทำคำสั่ง ADD นั้นจะนำค่าที่อยู่ใน Register rs มาบวกกับค่าที่อยู่ใน Register rt 
       จากนั้นนำค่าที่ได้มาเก็บไว้ใน Register rd
- * [คลิปอธิบายการบ้านครั้งที่ 1](https://www.youtube.com/watch?v=xqGYD-_WAHE&t=12s)
+      
+* [คลิปอธิบายการบ้านครั้งที่ 1](https://www.youtube.com/watch?v=xqGYD-_WAHE&t=12s)
 
 
