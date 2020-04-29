@@ -1,5 +1,5 @@
 ## รายงานวิชา สถาปัตยกรรมคอมพิวเตอร์
 
 #### สรุปเนื้อหา
-* MIPS Instruction Format
+* <br>**MIPS Instruction Format**
 
