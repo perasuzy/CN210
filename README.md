@@ -10,3 +10,17 @@
 | ----- | ----- | ----- | ----- | ----- | ----- |
 |6 bit  |5 bit  |5 bit  |5 bit  |5 bit  |6 bit  |
 
+<br>**I-format**
+
+|op     |rs     |rt     |offset     |
+| ----- | ----- | ----- | -----     | 
+|6 bit  |5 bit  |5 bit  |16 bit     |
+
+<br>**J-format**
+
+|op     |address |
+| ----- | -----  | 
+|6 bit  |26 bit  |
+
+
+
