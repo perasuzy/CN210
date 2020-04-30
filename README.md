@@ -89,4 +89,17 @@
 
 * [คลิปอธิบายการบ้านครั้งที่ 3](https://www.youtube.com/watch?v=O_0tx7ZDCJY)
 
+#### การบ้านครั้งที่ 4 [คำสั่ง Load word (lw) ใน Multi-Cycle]
+#### อธิบายการบ้านที่ 4
+      คำสั่ง lw เป็นคำสั่งในรูปแบบ I-Format มีการทำงาน 5 ขั้นตอนดังนี้
+            1. (T1) ค่า PC จะถูกเข้าไปเก้บไว้ใน Instruction Register และนำค่า PC มาบวก4 เเล้วเก็บไว้ที่เดิม
+            2. (T2) นำ Register ตัวที่ 25 ถึง 21 มาเก็บไว้ใน A และ นำ Register ตัวที่ 20 ถึง 16 มาเก็บไว้ใน B
+               จากนั้นนำ Register ตัวที่ 15 ถึง 0 มาผ่าน Sign Extend เพื่อเปลี่ยนจาก 16 bit เป็น 32 bit
+               แล้วทำการบวกกับค่า PC ใน ALU
+            3. (T3) นำ Register ตัวที่ 15 ถึง 0 มาบวกกับ A ใน ALU จะได้ ALU OUT 
+            4. (T4) จะนำค่าที่ได้จาก ALU เข้ามาเก็บไว้ใน Memory Data Register
+            5. (T5) ค่าที่ถูกเก็บเข้า Memory Data Register จะถูกส่งต่อไปยัง Register B แล้วนำไปใช้ในคำสั่งต่อๆไป
+            
+   * [คลิปอธิบายการบ้านครั้งที่ 4](https://www.youtube.com/watch?v=ycMAa37RAyA&t=28s)
+
       
