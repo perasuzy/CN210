@@ -69,4 +69,6 @@
 #### การบ้านครั้งที่ 3 [ความเเตกต่างของ Single-Cycle กับ Multi-Cycle]
 #### อธิบายการบ้านที่ 3
       ความเเตกต่างของ Single-Cycle และ Multi-Cycle มีดังนี้
+##### Single-Cycle
+![รูปที่ 1](SingleCycle.jpeg)
       
