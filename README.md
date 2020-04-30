@@ -122,6 +122,14 @@
 
 ![รูปที่ 3](T1.jpg)
 
+      MemRead=1                     :     เริ่มทำการอ่านข้อมูล     
+      lorD=1                        :     นำค่า PC มาเก็บไว้ใน Memory
+      IRWrite=1                     :     นำค่า PC ที่เก็บไว้ใน Memory มาใส่ใน Instruction Register
+      ALUSrcA=0                     :     นำค่า PC ไปที่ ALU โดยผ่าน MUX 0
+      ALUSrcB=1                     :     นำค่า 4  ไปที่ ALU โดยผ่าน MUX 1
+      ALUOP=ADD                     :     นำค่า PC และ 4 ที่ ALU มาบวกกัน
+      PCWrite=1, PCSource=1         :     นำค่าที่ได้จากการบวกกันไปใส่ใน PC เช่นเดิม
+
 ##### T2
 
 ![รูปที่ 4](T2.jpg)
