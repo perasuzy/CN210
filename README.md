@@ -87,5 +87,6 @@
       2. มี ALU ภายใน 1 ตัว
       3. มี memory 1 ตัวเท่านั้นใช้สำหรับเก็บทั้ง Data เเละ Instruction
 
+* [คลิปอธิบายการบ้านครั้งที่ 3](https://www.youtube.com/watch?v=O_0tx7ZDCJY)
 
       
