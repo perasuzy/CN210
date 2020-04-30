@@ -73,4 +73,9 @@
 ##### Single-Cycle
 
 ![รูปที่ 1](SingleCycle.jpg)
+
+
+##### Multi-Cycle
+
+![รูปที่ 2](MultiCycle.jpg)
       
