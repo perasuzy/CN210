@@ -71,5 +71,5 @@
       ความเเตกต่างของ Single-Cycle และ Multi-Cycle มีดังนี้
 ##### Single-Cycle
 
-![รูปที่ 1](SingleCycle.jpeg)
+![รูปที่ 1](SingleCycle.jpg)
       
