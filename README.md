@@ -134,11 +134,24 @@
 
 ![รูปที่ 4](T2.jpg)
 
+      ALUSrcA = 0                   :     นำค่า PC ไปที่ ALU โดยผ่าน MUX ที่ 0 เพื่อเตรียมคำนวน
+      ALUSrcB = 3                   :     นำค่า offset มา sign extend จาก 16 bit เป็น 32 bit แล้ว shift left 2 ไปที่ ALU โดยผ่าน MUX
+      ALUOP = 0                     :     นำค่า PC มาบวก offset เเต่ R-Type ไม่มี offset จึงข้ามไป
+
 ##### T3
 
 ![รูปที่ 5](T3.jpg)
+
+      ALUSrcA = 1                   :     นำค่า A ผ่าน MUX ไปที่ ALU 
+      ALUSrcB = 0                   :     นำค่า B ผ่าน MUX ไปที่ ALU 
+      ALUOP   = 2                   :     นำค่าทั้งสองค่ามาบวกกันแล้วเก็บใน ALUOut
 
 ##### T4
 
 ![รูปที่ 6](T4.jpg)
       
+      RegWrite = 1                  :     นำค่าจาก ALUOut มาเก็บใน Register rd
+      MemtoReg = 0                
+      RegDst   = 1                  
+
+* [คลิปอธิบายการบ้านครั้งที่  6]()
